@@ -1,0 +1,61 @@
+# ~/.ssh/config
+### ES servers ###
+Host dsmon
+	HostName 94.136.92.3
+	Port 2323
+	User kriholsysadm
+Host rsyncsrv
+        HostName ebsssync.elits.se
+        Port 22
+        User kriholsysadm
+Host dsdns
+	HostName 94.136.92.250
+	Port 2323
+	User kriholsysadm
+
+### Customer servers ###
+Host corona02
+	HostName 172.17.111.74
+	Port 22
+	User root
+Host corona03
+        HostName 172.17.111.75 
+        Port 22
+        User root
+Host coroadmin
+	HostName 172.17.111.63
+	Port 22
+	User kriholsysadm
+Host emosxsrv01
+	Hostname emosxsrv01.elits.se
+	Port 2323
+	User kriholsysadm
+Host emosxsrvold
+	HostName osxserver.elits.se
+	Port 22
+	User kriholsysadm
+Host clasrv01
+        HostName clasrv01.cloudagency.se
+        Port 2323
+        User kriholsysadm
+Host clasrv02
+	Hostname clasrv02.cloudagency.se
+	Port 22
+	User kriholsysadm
+Host innokontsrv02
+	HostName innokontsrv002.innovationskontorett.se
+	Port 2323
+	User kriholsysdm
+
+### Ferret private servers ###
+Host blackwidow
+	HostName blackwidow.illertass.se 
+	Port 22
+	User illern
+# Black Widow 88.191.159.16 static
+
+Host wildghoul
+	HostName wildghoul.illertass.se 
+	Port 22
+	User sysadmiller
+# Wild Ghoul 80.217.125.199 stable but not static
