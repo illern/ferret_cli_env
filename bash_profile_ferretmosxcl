@@ -1,3 +1,8 @@
+########################
+# Illern's bash_profile for MOSX clients
+# Credits to emil (https://github.com/emilis/emilis-config/blob/master/.bash_ps1) and @corndogcomputer (MOSX modifications to Emil's BASH prompt scipt)
+########################
+
 #if [ -f "$HOME/.bash_ps1" ]; then
 #
 #. "$HOME/.bash_ps1"

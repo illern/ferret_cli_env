@@ -86,6 +86,11 @@ Host ferretstack
 	Hostname 192.168.56.101
 	Port 22
 	User kriholsysadm
+### OpenStack beta ###
+Host ferretsrv04
+	Hostname 80.252.181.91
+	Port 22
+	User ubuntu 
 ### Ferret private servers ###
 Host blackwidow
 	HostName blackwidow.illertass.se 
