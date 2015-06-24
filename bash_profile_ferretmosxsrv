@@ -104,4 +104,12 @@ echo "It is hour" $ACTUALHOUR "of the day."
 #fi
 
 
+# MacPorts Installer addition on 2012-01-31_at_15:28:57: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+
+# MacPorts Installer addition on 2013-11-18_at_09:16:50: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
 

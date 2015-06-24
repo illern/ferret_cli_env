@@ -9,39 +9,22 @@
 #
 #fi
 
-############################################
-# Modified from emilis bash prompt script
-# from https://github.com/emilis/emilis-config/blob/master/.bash_ps1
-#
-# Modified for Mac OS X by
-# @corndogcomputer
-###########################################
 # Fill with minuses
 # (this is recalculated every time the prompt is shown in function prompt_command):
 fill="—- "
 
-### Outcommented formatting
-#reset_style='\[\033[30m\]'
-# Red text: reset_style='\[\033[31m\]'
-# Original line: reset_style='\[\033[00m\]'
+Original line: reset_style='\[\033[00m\]'
 
-### Outcommented formatting
-# status_style=$reset_style'\[\033[1;30m\]'
-# Red text: status_style=$reset_style'\[\033[0;31m\]' 
-# Original line: status_style=$reset_style'\[\033[0;90m\]' # gray color; use 0;37m for lighter color
+status_style=$reset_style'\[\033[0;90m\]' # gray color; use 0;37m for lighter color
 
-### Outcommented formatting
-# prompt_style=$reset_style
-# Original line: prompt_style=$reset_style
+prompt_style=$reset_style
 
-### Outcommented formatting
-# command_style=$resetstyle'\[\033[1;29m\]' # bold black
+command_style=$resetstyle'\[\033[1;29m\]' # bold black
 
 # Prompt variable:
-PS1="$status_style"'$fill \t\n'"$prompt_style"'${debian_chroot:+($debian_chroot)}\u @ \h:\W\$'"$command_style "
-# Original line: PS1="$status_style"'$fill \t\n'"$prompt_style"'${debian_chroot:+($debian_chroot)}\u@\h:\w\$'"$command_style "
-# Reset color for command output
+PS1="$status_style"'$fill \t\n'"$prompt_style"'${debian_chroot:+($debian_chroot)}\u@\h:\w\$'"$command_style "
 
+# Reset color for command output
 # (this one is invoked every time before a command is executed):
 trap 'echo -ne "\033[00m"' DEBUG
 function prompt_command {
@@ -174,7 +157,7 @@ source ~/Dropbox/todo_txt_ELITS/todo_completion
 # ACTUALHOUR=`echo $ACTUALHOUR|sed 's/^0*//'`
 
 echo "Salve civis"
-# , it is hour" $ACTUALHOUR "of the day."
+echo "It is hour" $ACTUALHOUR "of the day."
 
 
 #if [ -f "$HOME/.bash_layout" ]; then
@@ -184,18 +167,11 @@ echo "Salve civis"
 #fi
 
 
-##
-# Your previous /Users/kristofferh/.bash_profile file was backed up as /Users/kristofferh/.bash_profile.macports-saved_2012-01-31_at_15:28:57
-##
 
 # MacPorts Installer addition on 2012-01-31_at_15:28:57: adding an appropriate PATH variable for use with MacPorts.
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
 
-
-##
-# Your previous /Users/kristofferh/.bash_profile file was backed up as /Users/kristofferh/.bash_profile.macports-saved_2013-11-18_at_09:16:50
-##
 
 # MacPorts Installer addition on 2013-11-18_at_09:16:50: adding an appropriate PATH variable for use with MacPorts.
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
