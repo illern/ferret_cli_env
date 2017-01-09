@@ -43,32 +43,24 @@ alias mv='mv -iv'
 alias pages='open -a pages'
 alias safari='open -a Safari'
 alias server='open -a Server'
-alias screensharing='open -a /System/Library/CoreServices/Screen\ Sharing.app'
+alias screensharing='open -a /System/Library/CoreServices/Applications/Screen\ Sharing.app'
 alias skype='open -a Skype'
-alias smultron='open -a smultron\ 9'
+alias smultron='open -a smultron\ 4'
 alias spotify='open -a Spotify'
 alias syspref='open -a System\ Preferences'
 alias texted='open -a TextEdit'
 alias textedit='open -a TextEdit'
-alias tv='open -a /Applications/TeamViewer.app/'
+alias tv7='open -a /Applications/TeamViewer\ 7/TeamViewer.app/'
 alias textm='open -a textmate'
 alias textmate='open -a textmate'
-alias te='~/Dropbox/todo_txt_ELITS/todo.sh'
+alias t='~/Dropbox/todo_txt_ELITS/todo.sh'
 alias travel='utt add "Travel **"'
-alias tegrep='~/Dropbox/todo_txt_ELITS/todo.sh ls | grep'
-alias tegrepa='~/Dropbox/todo_txt_ELITS/todo.sh ls | grep "(A)" | sort'
-alias tegrepb='~/Dropbox/todo_txt_ELITS/todo.sh ls | grep "(B)" | sort'
-alias tegrepc='~/Dropbox/todo_txt_ELITS/todo.sh ls | grep "(C)" | sort'
-alias tegrepd='~/Dropbox/todo_txt_ELITS/todo.sh ls | grep "(D)" | sort'
-alias tegrepe='~/Dropbox/todo_txt_ELITS/todo.sh ls | grep "(E)" | sort'
-alias te='~/Dropbox/todo_txt_ELITS/todo.sh'
-alias travel='utt add "Travel **"'
-alias tigrep='~/Dropbox/todo_txt_illern/todo.sh ls | grep'
-alias tigrepa='~/Dropbox/todo_txt_illern/todo.sh ls | grep "(A)" | sort'
-alias tigrepb='~/Dropbox/todo_txt_illern/todo.sh ls | grep "(B)" | sort'
-alias tigrepc='~/Dropbox/todo_txt_illern/todo.sh ls | grep "(C)" | sort'
-alias tigrepd='~/Dropbox/todo_txt_illern/todo.sh ls | grep "(D)" | sort'
-alias tigrepe='~/Dropbox/todo_txt_illern/todo.sh ls | grep "(E)" | sort'
+alias tgrep='~/Dropbox/todo_txt_ELITS/todo.sh ls | grep'
+alias tgrepa='~/Dropbox/todo_txt_ELITS/todo.sh ls | grep "(A)" | sort'
+alias tgrepb='~/Dropbox/todo_txt_ELITS/todo.sh ls | grep "(B)" | sort'
+alias tgrepc='~/Dropbox/todo_txt_ELITS/todo.sh ls | grep "(C)" | sort'
+alias tgrepd='~/Dropbox/todo_txt_ELITS/todo.sh ls | grep "(D)" | sort'
+alias tgrepe='~/Dropbox/todo_txt_ELITS/todo.sh ls | grep "(E)" | sort'
 alias tweetdeck='open -a TweetDeck'
 alias ua='utt add'
 alias ubreak='utt add "Break **"'
@@ -89,3 +81,10 @@ alias xtorrent='open -a Xtorrent'
 
 ### iTerm shell integration
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+
+### BASH history format
+export HISTCONTROL=ignoredups
+export HISTCONTROL=erasedups
+export HISTTIMEFORMAT="%F %T %Z: "
+export HISTSIZE=10000
+
