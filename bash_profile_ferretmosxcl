@@ -2,7 +2,7 @@
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
 ### Prompts
-export PS1="\n\n----- \D{%F %a %H:%M} \u@\h \$PWD -----\n Domine? "
+export PS1="\n\n----- \D{%F %a %H:%M} \u@\e[1;35m\h\e[m \$PWD -----\n Domine? "
 export PS2=" -> "
 
 ### Aliases
