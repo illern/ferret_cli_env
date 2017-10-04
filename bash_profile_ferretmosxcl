@@ -27,6 +27,7 @@ alias dropbox='open -a /Applications/Dropbox'
 alias encrypt="openssl aes-256-cbc -a -salt"
 alias decrypt="openssl aes-256-cbc -a -d -salt"
 alias evernote='open -a /Applications/Evernote'
+alias getip='curl "http://ifconfig.me/ip"'
 alias hello='utt hello'
 alias hgrep='history | grep'
 alias itunes='open -a /Applications/iTunes'
