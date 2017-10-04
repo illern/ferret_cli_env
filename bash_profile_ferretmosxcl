@@ -28,6 +28,7 @@ alias encrypt="openssl aes-256-cbc -a -salt"
 alias decrypt="openssl aes-256-cbc -a -d -salt"
 alias evernote='open -a /Applications/Evernote'
 alias hello='utt hello'
+alias hgrep='history | grep'
 alias itunes='open -a /Applications/iTunes'
 alias iphoto='open -a /Applications/iPhoto'
 alias iweb='open -a /Applications/iWeb'
@@ -88,3 +89,5 @@ export HISTCONTROL=erasedups
 export HISTTIMEFORMAT="%F %T %Z: "
 export HISTSIZE=10000
 
+### Default editor
+export EDITOR=/usr/bin/vim
