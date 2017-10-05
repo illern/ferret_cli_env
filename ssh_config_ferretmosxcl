@@ -1,0 +1,122 @@
+# ~/.ssh/config
+### ES servers ###
+Host fuellkp
+	Hostname 10.10.14.14
+	Port 22
+	User kriholsysadm
+Host dsmon
+	HostName 192.168.106.3
+	Port 22
+	User kriholsysadm
+Host rsyncsrv
+        HostName ebsssync.elits.se
+        Port 22
+        User kriholsysadm
+Host dsdns
+	HostName 94.136.92.250
+	Port 2323
+	User kriholsysadm
+Host nagios
+	HostName 94.136.92.50
+	Port 2323
+	User kriholsysadm
+Host ebsssync
+	HostName ebsssync.elits.se
+	Port 22
+	User kriholsysadm
+Host registrarsrv01
+	Hostname registrar.elits.se
+	Port 22
+	User kriholsysadm
+Host ksfw
+	# Hostname fw.ks.liu.se
+	Hostname 130.236.7.162
+	Port 22
+	User kriholsysadm
+### Customer servers ###
+Host karservisrv001
+	Hostname 10.10.67.72
+	port 22
+	User kriholsysadm
+Host karservisrv002
+	Hostname 10.10.67.10
+	Port 22
+	User kriholsysadm
+Host corona02
+	HostName 172.17.111.74
+	Port 22
+	User root
+Host corona03
+        HostName 172.17.111.75 
+        Port 22
+        User root
+Host coroadmin01
+	HostName 172.17.111.63
+	Port 22
+	User kriholsysadm
+Host coroadmin02
+	Hostname 172.17.0.50
+	Port 22
+	User kriholsysadm
+Host emosxsrv01
+	Hostname emosxsrv01.elits.se
+	Port 2323
+	User kriholsysadm
+Host emosxsrvold
+	HostName osxserver.elits.se
+	Port 22
+	User kriholsysadm
+Host clasrv01
+        HostName clasrv01.cloudagency.se
+        Port 2323
+        User kriholsysadm
+Host clasrv02
+	Hostname clasrv02.cloudagency.se
+	Port 22
+	User kriholsysadm
+Host innokontsrv02
+	HostName innokontsrv002.innovationskontorett.se
+	Port 2323
+	User kriholsysadm
+Host milltime01
+	HostName 94.136.92.161
+	Port 2323
+	User kriholsysadm
+Host milltime02
+	Hostname 94.136.92.162
+	Port 2323
+	User kriholsysadm
+Host milltime03
+	Hostname 10.10.54.97
+	Port 2323
+	User kriholsysadm
+### Test environment ###
+Host testresolver
+	HostName 10.1.0.28
+	Port 22
+	User kriholsysadm
+Host testns
+	HostName 10.1.0.29
+	Port 22
+	User kriholsysadm
+Host ferretstack
+	Hostname 192.168.56.101
+	Port 22
+	User kriholsysadm
+### OpenStack beta ###
+Host ferretsrv04
+	Hostname 80.252.181.91
+	Port 22
+	User ubuntu 
+### Ferret private servers ###
+Host blackwidow
+	HostName blackwidow.illertass.se 
+	Port 22
+	User illern
+# Black Widow 88.191.159.16 static
+
+Host wildghoul
+	HostName illertunnel.illertass.se 
+	Port 22
+	User sysadmiller
+# Wild Ghoul 80.217.125.199 stable but not static
