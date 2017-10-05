@@ -18,7 +18,7 @@ set incsearch
 set showmatch
 
 """ Margin to the left
-set foldcolumn=2
+" set foldcolumn=2
 
 """ Enable syntax highlightning
 syntax enable
