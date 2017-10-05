@@ -3,3 +3,10 @@ Homebrew
 Homebrew Cask
 GeekTool
 * Config files /Users/illern/Library/Preferences/
+iTerm
+* Shell integration
+Docker
+1Password
+Little Snitch
+Micro Snitch
+Todo.txt
