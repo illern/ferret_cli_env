@@ -27,7 +27,7 @@
 	<key>MaxVertically</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Documents/Settings/iTerm2</string>
+	<string>~/Downloads/GitHub/ferret_cli_env/iTerm2</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -2108,7 +2108,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/illern/Documents/Settings/iTerm2</string>
+	<string>/Users/illern/Downloads/GitHub/ferret_cli_env/iTerm2</string>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
