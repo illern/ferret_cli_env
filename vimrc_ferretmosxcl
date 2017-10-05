@@ -1,0 +1,28 @@
+""" Command history
+set history=500
+
+""" Filetype plugins conf
+filetype plugin on
+filetype indent on
+
+""" Show current position
+set ruler
+
+"""" Non-case sensitive search
+set ignorecase
+
+""" Incremental search
+set incsearch
+
+""" Show matching brackets
+set showmatch
+
+""" Margin to the left
+set foldcolumn=2
+
+""" Enable syntax highlightning
+syntax enable
+
+
+
+
