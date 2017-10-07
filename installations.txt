@@ -2,7 +2,7 @@ MacPorts
 Homebrew
 Homebrew Cask
 GeekTool Config files /Users/illern/Library/Preferences/
-iTerm plus Shell integration
+iTerm plus Shell integration and sudolikeaboss
 Docker
 1Password
 Little Snitch
