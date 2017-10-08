@@ -5,8 +5,15 @@ GeekTool Config files /Users/illern/Library/Preferences/
 iTerm plus Shell integration and sudolikeaboss
 Docker
 1Password
+op 1Password CLI
 Little Snitch
 Micro Snitch
 Todo.txt
 Murus
 Pixelmator
+Git
+Gist (Homebrew)
+Nmap (MacPorts)
+Keybase
+GPGTools
+

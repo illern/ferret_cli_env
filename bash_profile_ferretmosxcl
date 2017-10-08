@@ -86,6 +86,9 @@ alias uroll='utt add "ES: Roll call"'
 alias utime='utt add "ES: Time reporting"'
 alias watchg='open -a /Applications/WatchGuard/WatchGuard\ Mobile\ VPN\ with\ SSL.app/'
 alias vmware='open -a /Applications/VMware\ fusion.app'
+alias vpnillertassc='networksetup -connectpppoeservice "Illertass VPN (L2TP)"'
+alias vpnillertassd='networksetup -disconnectpppoeservice "Illertass VPN (L2TP)"'
+alias vpncisco='
 alias xtorrent='open -a /Applications/Xtorrent'
 
 ### Commands
