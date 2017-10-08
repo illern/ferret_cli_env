@@ -1,7 +1,7 @@
 ### PATHs
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
-### Prompts
+### Prompt
 export PS1="\n\n----- \D{%F %a %H:%M} \u@\e[1;35m\h\e[m \$PWD -----\n Domine? "
 export PS2=" -> "
 
@@ -39,8 +39,9 @@ alias itunes='open -a /Applications/iTunes'
 alias iphoto='open -a /Applications/iPhoto'
 alias iweb='open -a /Applications/iWeb'
 alias lync='open -a /Applications/Microsoft\ Lync'
+alias lr='ls -R | grep ":$" | sed -e '\''s/:$//'\'' -e '\''s/[^-][^\/]*\//--/g'\'' -e '\''s/^/   /'\'' -e '\''s/-/|/'\'' | less'
 alias ls='ls -FG'
-alias lst='ls -tU'
+alias lst='ls -ltU'
 alias lunch='utt add "Lunch **"'
 alias mactracker='open -a /Applications/Mactracker'
 alias markdown='open -a /Applications/MarkdownLife'
@@ -52,6 +53,7 @@ alias pages='open -a /Applications/Pages'
 alias safari='open -a /Applications/Safari'
 alias server='open -a /Applications/Server'
 alias screensharing='open -a /System/Library/CoreServices/Applications/Screen\ Sharing.app'
+showa () { /usr/bin/grep --color=always -i -a1 $@ ~/.bash_profile | grep -v '^\s*$' | less -FSRXc ; }
 alias skype='open -a /Applications/Skype'
 alias smultron='open -a /Applications/Smultron\ 4'
 alias spotify='open -a /Applications/Spotify'
@@ -86,6 +88,27 @@ alias watchg='open -a /Applications/WatchGuard/WatchGuard\ Mobile\ VPN\ with\ SS
 alias vmware='open -a /Applications/VMware\ fusion.app'
 alias xtorrent='open -a /Applications/Xtorrent'
 
+### Commands
+ extract () {
+        if [ -f $1 ] ; then
+          case $1 in
+            *.tar.bz2)   tar xjf $1     ;;
+            *.tar.gz)    tar xzf $1     ;;
+            *.bz2)       bunzip2 $1     ;;
+            *.rar)       unrar e $1     ;;
+            *.gz)        gunzip $1      ;;
+            *.tar)       tar xf $1      ;;
+            *.tbz2)      tar xjf $1     ;;
+            *.tgz)       tar xzf $1     ;;
+            *.zip)       unzip $1       ;;
+            *.Z)         uncompress $1  ;;
+            *.7z)        7z x $1        ;;
+            *)     echo "'$1' cannot be extracted via extract()" ;;
+             esac
+         else
+             echo "'$1' is not a valid file"
+         fi
+}
 
 ### iTerm shell integration
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
