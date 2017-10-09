@@ -1,19 +1,21 @@
-MacPorts
+
+1Password
+Docker
+GPGTools
+GeekTool Config files /Users/illern/Library/Preferences/
+Gist (Homebrew)
+Git
 Homebrew
 Homebrew Cask
-GeekTool Config files /Users/illern/Library/Preferences/
-iTerm plus Shell integration and sudolikeaboss
-Docker
-1Password
-op 1Password CLI
-Little Snitch
-Micro Snitch
-Todo.txt
-Murus
-Pixelmator
-Git
-Gist (Homebrew)
-Nmap (MacPorts)
 Keybase
-GPGTools
-
+Little Snitch
+MacPorts
+Micro Snitch
+Murus
+Nmap (MacPorts)
+Pixelmator
+Todo.txt
+iTerm plus Shell integration and sudolikeaboss
+op 1Password CLI
+pandoc ?
+MacTeX via Homebrew?
