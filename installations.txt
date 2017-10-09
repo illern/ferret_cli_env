@@ -17,5 +17,5 @@ Pixelmator
 Todo.txt
 iTerm plus Shell integration and sudolikeaboss
 op 1Password CLI
-pandoc ?
-MacTeX via Homebrew?
+pandoc
+MacTeX via Homebrew or Macports or manually
