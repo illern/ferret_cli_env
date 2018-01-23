@@ -23,6 +23,17 @@ set showmatch
 """ Enable syntax highlightning
 syntax enable
 
+""" Colour schemes
+" colo darkblue
+" colo default
+" colo desert
+" colo elflord
+" colo koehler
+" colo pablo
+" colo peachpuff
+" colo ron
+" colo slate
+" colo 
 
 
 
