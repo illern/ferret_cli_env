@@ -2,7 +2,7 @@
 export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/opt/openssl/bin:/usr/local/Cellar/nmap/7.70/bin/:$PATH
 
 ### Prompt
-export PS1="\n\n----- \D{%F %a %H:%M} \u@\e[1;35m\h\e[m \$PWD -----\n Domine? "
+export PS1="\n\n----- \D{%F %a %H:%M} \u@\e[0;35m\h\e[m \$PWD -----\n Domine? "
 export PS2=" -> "
 
 ### Aliases
