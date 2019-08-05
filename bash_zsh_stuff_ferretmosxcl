@@ -1,0 +1,135 @@
+### PATHs
+export PATH=/usr/local/bin:/opt/local/bin:/opt/local/sbin:/usr/local/opt/openssl/bin:/Library/TeX/texbin:/usr/local/Cellar/nmap/7.70/bin/:$PATH
+
+### Aliases
+alias 1pw='open -a /Applications/1Password\ 6'
+alias addressbook='open -a /Applications/Address\ book'
+alias adium='open -a /Applications/Adium'
+alias airmail='open -a /Applications/Airmail'
+alias amail='open -a /Applications/Mail'
+alias acal='open -a /Applications/Calendar'
+alias acontacts='open -a /Applications/Contacts'
+alias amessages='open -a /Applications/Messages'
+alias amon='open -a /Applications/Activity\ Monitor'
+alias apfs.util='/System/Library/Filesystems/apfs.fs/Contents/Resources/apfs.util'
+alias apfs_stats='/System/Library/Filesystems/apfs.fs/Contents/Resources/apfs_stats'
+alias mount_apfs='/System/Library/Filesystems/apfs.fs/Contents/Resources/mount_apfs'
+alias mount_apfs='/System/Library/Filesystems/apfs.fs/Contents/Resources/mount_apfs'
+alias apfs_invert='/System/Library/Filesystems/apfs.fs/Contents/Resources/apfs_invert'
+alias apfs_fsck='/System/Library/Filesystems/apfs.fs/Contents/Resources/fsck_apfs'
+alias fsck_apfs='/System/Library/Filesystems/apfs.fs/Contents/Resources/fsck_apfs'
+alias apfs_newfs='/System/Library/Filesystems/apfs.fs/Contents/Resources/newfs_apfs'
+alias newfs_apfs='/System/Library/Filesystems/apfs.fs/Contents/Resources/newfs_apfs'
+alias apfs_preflight_converter='/System/Library/Filesystems/apfs.fs/Contents/Resources/apfs_preflight_converter'
+alias apfs_hfs_convert='/System/Library/Filesystems/apfs.fs/Contents/Resources/hfs_convert'
+alias hfs_convert='/System/Library/Filesystems/apfs.fs/Contents/Resources/hfs_convert'
+alias slurpAPFSMeta='/System/Library/Filesystems/apfs.fs/Contents/Resources/slurpAPFSMeta'
+alias aremote='open -a /Applications/Remote\ Desktop.app'
+alias astore='open -a /Applications/App\ Store'
+alias cd.='cd ../'
+alias cd.2='cd ../../'
+alias cd.3='cd ../../../'
+alias cd.4='cd ../../../../'
+alias cd.5='cd ../../../../../'
+alias colloquy='open -a /Applications/Colloquy'
+alias gchrome='open -a /Applications/Google\ Chrome'
+alias cord='open -a /Applications/Cord'
+alias cp='cp -ivR'
+alias daylite='open -a /Applications/Daylite.app'
+alias dropbox='open -a /Applications/Dropbox'
+alias encrypt="openssl aes-256-cbc -a -salt"
+alias decrypt="openssl aes-256-cbc -a -d -salt"
+alias evernote='open -a /Applications/Evernote'
+alias getip='curl "http://ifconfig.me/ip"'
+alias hello='utt hello'
+alias hgrep='history | grep'
+alias itunes='open -a /Applications/iTunes'
+alias iphoto='open -a /Applications/iPhoto'
+alias iweb='open -a /Applications/iWeb'
+alias lync='open -a /Applications/Microsoft\ Lync'
+alias lr='ls -R | grep ":$" | sed -e '\''s/:$//'\'' -e '\''s/[^-][^\/]*\//--/g'\'' -e '\''s/^/   /'\'' -e '\''s/-/|/'\'' | less'
+alias ls='ls -FG'
+alias lst='ls -ltU'
+alias lunch='utt add "Lunch **"'
+alias mactracker='open -a /Applications/Mactracker'
+alias markdown='open -a /Applications/MarkdownLife'
+alias massage='utt add "Massage **"'
+alias mkdir='mkdir -pv'
+alias msremote='open -a /Applications/Microsoft\ Remote\ Desktop.app'
+alias mv='mv -iv'
+alias pages='open -a /Applications/Pages'
+alias safari='open -a /Applications/Safari'
+alias server='open -a /Applications/Server'
+alias screensharing='open -a /System/Library/CoreServices/Applications/Screen\ Sharing.app'
+alias skype='open -a /Applications/Skype'
+alias smultron='open -a /Applications/Smultron\ 4'
+alias spotify='open -a /Applications/Spotify'
+alias syspref='open -a /Applications/System\ Preferences'
+alias texted='open -a /Applications/TextEdit'
+alias textedit='open -a /Applications/TextEdit'
+alias tv7='open -a /Applications/TeamViewer\ 7/TeamViewer.app/'
+alias textm='open -a /Applications/TextMate'
+alias textmate='open -a /Applications/TextMate'
+alias t='~/Dropbox/todo_txt_ELITS/todo.sh'
+alias travel='utt add "Travel **"'
+alias tgrep='~/Dropbox/todo_txt_ELITS/todo.sh ls | grep'
+alias tgrepa='~/Dropbox/todo_txt_ELITS/todo.sh ls | grep "\(A\)" | sort'
+alias tgrepb='~/Dropbox/todo_txt_ELITS/todo.sh ls | grep "\(B\)" | sort'
+alias tgrepc='~/Dropbox/todo_txt_ELITS/todo.sh ls | grep "\(C\)" | sort'
+alias tgrepd='~/Dropbox/todo_txt_ELITS/todo.sh ls | grep "\(D\)" | sort'
+alias tgrepe='~/Dropbox/todo_txt_ELITS/todo.sh ls | grep "\(E\)" | sort'
+alias tweetdeck='open -a /Applications/TweetDeck'
+alias ua='utt add'
+alias ubreak='utt add "Break **"'
+alias ucol='utt add "ES: Conferred with colleguage"'
+alias udoc='utt add "ES: Documentation"'
+alias uedit=' utt edit'
+alias umail='utt add "ES: E-mail"'
+alias ulunch='utt add "Lunch **"'
+alias urep='/usr/local/bin/utt report `date "+%Y-%m-%d%n"`'
+alias uplan='utt add "ES: Planning"'
+alias uprep='utt add "ES: Prep roll call"'
+alias uroll='utt add "ES: Roll call"'
+alias utime='utt add "ES: Time reporting"'
+alias vbox='VBoxMangae'
+alias watchg='open -a /Applications/WatchGuard/WatchGuard\ Mobile\ VPN\ with\ SSL.app/'
+alias vmware='open -a /Applications/VMware\ fusion.app'
+alias vpnillertassc='networksetup -connectpppoeservice "Illertass VPN (L2TP)"'
+alias vpnillertassd='networksetup -disconnectpppoeservice "Illertass VPN (L2TP)"'
+alias vpncisco='/opt/cisco/anyconnect/bin/vpn'
+alias xtorrent='open -a /Applications/Xtorrent'
+
+### Commands
+ extract () {
+        if [ -f $1 ] ; then
+          case $1 in
+            *.tar.bz2)   tar xjf $1     ;;
+            *.tar.gz)    tar xzf $1     ;;
+            *.bz2)       bunzip2 $1     ;;
+            *.rar)       unrar e $1     ;;
+            *.gz)        gunzip $1      ;;
+            *.tar)       tar xf $1      ;;
+            *.tbz2)      tar xjf $1     ;;
+            *.tgz)       tar xzf $1     ;;
+            *.zip)       unzip $1       ;;
+            *.Z)         uncompress $1  ;;
+            *.7z)        7z x $1        ;;
+            *)     echo "'$1' cannot be extracted via extract()" ;;
+             esac
+         else
+             echo "'$1' is not a valid file"
+         fi
+}
+
+showa () { /usr/bin/grep --color=always -i -a1 $@ ~/.bash_profile | grep -v '^\s*$' | less -FSRXc ; }
+
+### History format
+export HISTSIZE=10000
+export HISTCONTROL=ignoredups
+export HISTCONTROL=erasedups
+export HISTTIMEFORMAT="%F %T %Z: "
+
+### Default editor
+export EDITOR=/usr/bin/vim
+
+
