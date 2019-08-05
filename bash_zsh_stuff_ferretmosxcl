@@ -1,3 +1,6 @@
+### ASCII ferret
+echo '<\,/\,~~'
+
 ### PATHs
 export PATH=/usr/local/bin:/opt/local/bin:/opt/local/sbin:/usr/local/opt/openssl/bin:/Library/TeX/texbin:/usr/local/Cellar/nmap/7.70/bin/:$PATH
 
