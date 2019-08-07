@@ -4,7 +4,7 @@ echo '<\,/\,~~'
 ### PATHs
 export PATH=/usr/local/bin:/opt/local/bin:/opt/local/sbin:/usr/local/opt/openssl/bin:/Library/TeX/texbin:/usr/local/Cellar/nmap/7.70/bin/:$PATH
 
-### Colourise man pages
+### Colourisation
 export LESS_TERMCAP_mb=$'\e[1;32m'
 export LESS_TERMCAP_md=$'\e[1;32m'
 export LESS_TERMCAP_me=$'\e[0m'
@@ -24,6 +24,8 @@ export LESS_TERMCAP_us=$'\e[1;4;31m'
 # export LESS_TERMCAP_mr=$(tput rev)
 # export LESS_TERMCAP_mh=$(tput dim)
 # export PATH="/usr/local/sbin:$PATH"
+
+export GREP_OPTIONS='--color=auto'
 
 ### Aliases
 alias 1pw='open -a /Applications/1Password\ 6'
