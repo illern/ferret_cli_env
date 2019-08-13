@@ -116,4 +116,4 @@ source $ZSH/oh-my-zsh.sh
 #
 # Ferret aliases
 alias history='history -i'
-
+alias history='history 0'
